@@ -1,0 +1,19 @@
+{
+  "projects": {
+    "wkbid": "1VvvxcbKz7DHOzMJy59uZVBXrvXcxz_zQuoiePXjaDPQ",
+    "sheets": {
+      "projects": {
+        "data": "projects!A2:E",
+        "header": "projects!A1:E1"
+      },
+      "tasks": {
+        "data": "tasks!A2:L",
+        "header": "tasks!A1:L1"
+      },
+      "config": {
+        "data": "config!A2:D",
+        "header": "config!A1:D1"
+      }
+    }
+  }
+}

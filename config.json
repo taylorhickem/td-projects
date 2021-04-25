@@ -1,0 +1,4 @@
+{
+  "gsheet_config_file":"gsheet_config.json",
+  "db_path": "sqlite:///projects.db"
+}

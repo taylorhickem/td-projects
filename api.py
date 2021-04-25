@@ -1,4 +1,4 @@
-'''Created on 2021/04/24
+'''Created on 2021-04-24
 @author: Taylor W Hickem
 '''
 # useful info https://developer.todoist.com/
@@ -7,13 +7,11 @@
 # ---------------------------------------------------------------------------------------------------
 import requests, uuid, json
 
-
 # ---------------------------------------------------------------------------------------------------
 # CONSTANTS
 # ---------------------------------------------------------------------------------------------------
 USER_TOKEN = 'df0a9ed8cfa22909d85674d43696c068ceee894c'
 REQUEST_URL = 'https://api.todoist.com/rest/v1/'
-
 
 # ---------------------------------------------------------------------------------------------------
 # LIBRARIES
@@ -24,6 +22,13 @@ todo_classes = {
     },
     'tasks': {
         'request_key': 'tasks'
+    },
+    #doesn't work for bulk requests but may work for task-specific request
+    'comments': {
+        'request_key': 'comments'
+    },
+    'labels': {
+        'request_key': 'labels'
     }
 }
 
